@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+<strong><h1 align="center">Blog preview card</h1></strong>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img alt="" src=".github/preview.png" width="100%">
+</p>
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo deste projeto é demonstrar a criação de componentes reutilizáveis e bem estruturados utilizando o padrão de composição(composition pattern). 
 
-## Expanding the ESLint configuration
+O projeto gera um layout de cartões de visualização de blogs com dados falsos gerados pelo Faker.js.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+### Design
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+O design deste projeto é baseado no desafio "Blog Preview Card" do site [Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- **Vite**: Ferramenta de build rápida e moderna.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **Tailwind CSS**: Framework de CSS utilitário para criação de layouts responsivos.
+- **Faker.js**: Biblioteca para geração de dados falsos.
+
+## Como Executar o Projeto
+
+| Comando          | Ação                                                         |
+| :--------------- | :------------------------------------------------------------- |
+| `npm install`   | Instala as dependências                                         |
+| `npm run dev`       | Inicia o servidor de desenvolvimento local em `localhost:3000` |
+
+## Visualizar o Projeto
+
+Você pode visualizar o projeto em produção no seguinte link:
+
+[Visualizar Projeto](https://blog-preview-card-vite.vercel.app/)
