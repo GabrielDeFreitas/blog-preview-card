@@ -6,7 +6,7 @@ interface CardDescriptionProps extends ComponentProps<'p'>{
 
 export function CardDescription( props : CardDescriptionProps){
     return (
-        <p className="text-sm font-medium text-neutral-500" {...props}>
+        <p className="text-sm font-medium text-neutral-500 truncate" {...props}>
             {props.children}            
         </p>
     )
