@@ -19,7 +19,7 @@ function App() {
             <Card.Content>
               <Card.Badge>{card.badge}</Card.Badge>
               <Card.PubDate dateTime={card.pubDate}>{card.pubDate}</Card.PubDate>
-              <Card.Title>{card.title}</Card.Title>
+              <Card.Title href="/" title={card.title} aria-label={card.title}>{card.title}</Card.Title>
               <Card.Description>{card.description}</Card.Description>
               <Card.Footer>
                 <Card.Avatar src={card.avatar} width={32} height={32} />
