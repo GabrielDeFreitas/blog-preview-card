@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 | Comando          | Ação                                                         |
 | :--------------- | :------------------------------------------------------------- |
 | `npm install`   | Instala as dependências                                         |
-| `npm run dev`       | Inicia o servidor de desenvolvimento local em `localhost:3000` |
+| `npm run dev`       | Inicia o servidor de desenvolvimento local|
 
 ## Visualizar o Projeto
 
